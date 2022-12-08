@@ -19,7 +19,7 @@
 	$ touch File.txt
 	$ git add File.txt
 	$ git status  
-	
+	$ git commit -m 
 	-Git username nasil olur ?
         $ git config --global user.name " Gokhan Saygin "
 
