@@ -1,0 +1,25 @@
+-Git komutu sahip oldugumuz bir dosyanin erisime acilmasi, onun her anini takip edebilmemizi ve internet olmayan bir ortamda bile commit leyebilmemizi yani degisiklikler yapip projeyi guncellememize olanak saglar..
+
+        -Git komutunun kullanabilmemiz icin oncelikle onu yuklememiz gerekir.
+        $ brew install git
+
+        -Git komutu aktive olmadan calismaz. Bunun icinde
+        $ git init      kullaniriz.
+
+        -Ardindan  bir File acmamiz ve onu git komutu ile eslestirmemiz gerekir.
+        $ touch File.txt
+        $ git status    yazip cikan sonuc kirmizi ise dosya henuz git lenmemistir.
+
+        $ git add File.txt 
+	-Simdi cikan sonuc yesil olmustur ve dosyamizi artik istedigimiz zaman ve istedigimiz yerden editleyebiliriz. 
+
+	-Yani kisaca islemler soyledir..
+	
+	$ git init 
+	$ touch File.txt
+	$ git add File.txt
+	$ git status  
+	
+	-Git username nasil olur ?
+        $ git config --global user.name " Gokhan Saygin "
+
